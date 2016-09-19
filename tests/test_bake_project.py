@@ -142,24 +142,16 @@ def test_bake_without_travis_pypi_setup(cookies):
         assert 'travis_pypi_setup.py' not in found_toplevel_files
 
 
-def test_bake_without_author_file(cookies):
-    """Test bake without author file."""
-    context = {'create_author_file': 'n'}
+def test_bake_minimal_files(cookies):
+    """Test bake minimal files."""
+    context = {'minimal_files': 'y'}
     with bake_in_temp_dir(cookies, extra_context=context) as result:
         found_toplevel_files = [f.basename for f in result.project.listdir()]
         assert 'AUTHORS.rst' not in found_toplevel_files
-        doc_files = [f.basename for f in result.project.join('docs').listdir()]
-        assert 'authors.rst' not in doc_files
-
-        # Assert there are no spaces in the toc tree
-        docs_index_path = result.project.join('docs/index.rst')
-        with open(str(docs_index_path)) as index_file:
-            assert 'contributing\n   history' in index_file.read()
-
-        # Check that
-        manifest_path = result.project.join('MANIFEST.in')
-        with open(str(manifest_path)) as manifest_file:
-            assert 'AUTHORS.rst' not in manifest_file.read()
+        assert 'CONTRIBUTING.rst' not in found_toplevel_files
+        assert 'HISTORY.rst' not in found_toplevel_files
+        assert 'MANIFEST.in' not in found_toplevel_files
+        assert 'Makefile' not in found_toplevel_files
 
 
 def test_make_help(cookies):

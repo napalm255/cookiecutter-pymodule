@@ -7,8 +7,8 @@
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "project_short_description": "Boilerplate for a Python package.",
   "version": "0.1.0",
-  "minimal_files": "y",
-  "use_pypi_deployment_with_travis": "n",
+  "minimal_files": "n",
+  "use_pypi_deployment_with_travis": "y",
   "open_source_license": [
     "MIT license",
     "BSD license",
