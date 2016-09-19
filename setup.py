@@ -1,16 +1,17 @@
 # !/usr/bin/env python
+"""Setup module."""
 
 from distutils.core import setup
 setup(
-    name='cookiecutter-pypackage',
+    name='cookiecutter-pymodule',
     packages=[],
     version='0.1.0',
-    description='Cookiecutter template for a Python package',
-    author='Audrey Roy Greenfeld',
+    description='Cookiecutter template for a Python module',
+    author='Brad Gibson',
+    author_email='napalm255@gmail.com',
+    url='https://github.com/napalm255/cookiecutter-pymodule',
+    keywords=['cookiecutter', 'template', 'package', 'module', ],
     license='BSD',
-    author_email='aroy@alum.mit.edu',
-    url='https://github.com/audreyr/cookiecutter-pypackage',
-    keywords=['cookiecutter', 'template', 'package', ],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Console',

@@ -108,7 +108,7 @@ def test_bake_and_run_travis_pypi_setup(cookies):
 
         # when:
         travis_setup_cmd = ('python travis_pypi_setup.py'
-                            ' --repo audreyr/cookiecutter-pypackage --password invalidpass')
+                            ' --repo napalm255/cookiecutter-pymodule --password invalidpass')
         run_inside_dir(travis_setup_cmd, project_path)
         # then:
         result_travis_config = yaml.load(result.project.join(".travis.yml").open())
@@ -196,7 +196,7 @@ def test_project_with_invalid_module_name(cookies):
 
     # when:
     travis_setup_cmd = ('python travis_pypi_setup.py'
-                        ' --repo audreyr/cookiecutter-pypackage --password invalidpass')
+                        ' --repo napalm255/cookiecutter-pymodule --password invalidpass')
     run_inside_dir(travis_setup_cmd, project_path)
 
     # then:
