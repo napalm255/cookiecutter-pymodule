@@ -33,5 +33,4 @@ class Test{{ cookiecutter.project_slug|title }}(object):
 
 
 if __name__ == '__main__':
-    sys.exit(unittest.main())
-{%- endif %}
+    sys.exit(pytest.main())
