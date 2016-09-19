@@ -2,14 +2,14 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
-     :target: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/
+.. image:: https://pyup.io/repos/github/napalm255/cookiecutter-pymodule/shield.svg
+     :target: https://pyup.io/repos/github/napalm255/cookiecutter-pymodule/
      :alt: Updates
 
 Cookiecutter_ template for a Python package.
 
-* GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
-* Documentation: https://cookiecutter-pypackage.readthedocs.io/
+* GitHub repo: https://github.com/napalm255/cookiecutter-pymodule/
+* Documentation: https://cookiecutter-pymodule.readthedocs.io/
 * Free software: BSD license
 
 Features
@@ -30,15 +30,10 @@ Build Status
 
 Linux:
 
-.. image:: https://img.shields.io/travis/audreyr/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
+.. image:: https://img.shields.io/travis/napalm255/cookiecutter-pymodule.svg
+    :target: https://travis-ci.org/napalm255/cookiecutter-pymodule
     :alt: Linux build status on Travis CI
 
-Windows:
-
-.. image:: https://ci.appveyor.com/api/projects/status/github/audreyr/cookiecutter-pypackage?branch=master
-    :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
-    :alt: Windows build status on Appveyor
 
 Quickstart
 ----------
@@ -50,7 +45,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/napalm255/cookiecutter-pymodule.git
 
 Then:
 
@@ -67,9 +62,9 @@ Then:
 
 .. _`pip docs for requirements files`: https://pip.pypa.io/en/stable/user_guide/#requirements-files
 
-For more details, see the `cookiecutter-pypackage tutorial`_.
+For more details, see the `cookiecutter-pymodule tutorial`_.
 
-.. _`cookiecutter-pypackage tutorial`: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
+.. _`cookiecutter-pymodule tutorial`: https://cookiecutter-pymodule.readthedocs.io/en/latest/tutorial.html
 
 Not Exactly What You Want?
 --------------------------
@@ -79,15 +74,15 @@ Don't worry, you have options:
 Similar Cookiecutter Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* `Nekroze/cookiecutter-pypackage`_: A fork of this with a PyTest test runner,
+* `Nekroze/cookiecutter-pymodule`_: A fork of this with a PyTest test runner,
   strict flake8 checking with Travis/Tox, and some docs and `setup.py` differences.
 
-* `tony/cookiecutter-pypackage-pythonic`_: Fork with py2.7+3.3 optimizations.
+* `tony/cookiecutter-pymodule-pythonic`_: Fork with py2.7+3.3 optimizations.
   Flask/Werkzeug-style test runner, ``_compat`` module and module/doc conventions.
   See ``README.rst`` or the `github comparison view`_ for exhaustive list of
   additions and modifications.
 
-* `ardydedase/cookiecutter-pypackage`_: A fork with separate requirements files rather than a requirements list in the ``setup.py`` file.
+* `ardydedase/cookiecutter-pymodule`_: A fork with separate requirements files rather than a requirements list in the ``setup.py`` file.
 
 * Also see the `network`_ and `family tree`_ for this repo. (If you find
   anything that should be listed here, please add it and send a pull request!)
@@ -120,9 +115,9 @@ make my own packaging experience better.
 .. _Bumpversion: https://github.com/peritus/bumpversion
 .. _PyPi: https://pypi.python.org/pypi
 
-.. _`Nekroze/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
-.. _`tony/cookiecutter-pypackage-pythonic`: https://github.com/tony/cookiecutter-pypackage-pythonic
-.. _`ardydedase/cookiecutter-pypackage`: https://github.com/ardydedase/cookiecutter-pypackage
-.. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/audreyr:master...master
-.. _`network`: https://github.com/audreyr/cookiecutter-pypackage/network
-.. _`family tree`: https://github.com/audreyr/cookiecutter-pypackage/network/members
+.. _`Nekroze/cookiecutter-pymodule`: https://github.com/Nekroze/cookiecutter-pymodule
+.. _`tony/cookiecutter-pymodule-pythonic`: https://github.com/tony/cookiecutter-pymodule-pythonic
+.. _`ardydedase/cookiecutter-pymodule`: https://github.com/ardydedase/cookiecutter-pymodule
+.. _github comparison view: https://github.com/tony/cookiecutter-pymodule-pythonic/compare/napalm255:master...master
+.. _`network`: https://github.com/napalm255/cookiecutter-pymodule/network
+.. _`family tree`: https://github.com/napalm255/cookiecutter-pymodule/network/members
