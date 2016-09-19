@@ -1,6 +1,6 @@
 PyYAML
+pyflakes==1.2.3
 flake8
-pyflakes
 pytest
 pytest-cookies
 pytest-cov
