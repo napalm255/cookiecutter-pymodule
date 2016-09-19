@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Main entry point."""
+"""{{ cookiecutter.project_name }} module."""
 
 import click
 
