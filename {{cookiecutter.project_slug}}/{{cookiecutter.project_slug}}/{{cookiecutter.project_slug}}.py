@@ -4,6 +4,7 @@
 
 import click
 
+
 @click.command()
 def cli(args=None):
     """Console script for {{cookiecutter.project_slug}}."""
@@ -11,6 +12,7 @@ def cli(args=None):
                '{{cookiecutter.project_slug}}.cli.main')
     click.echo('See click documentation at http://click.pocoo.org/')
     click.echo('Arguments: ', args)
+
 
 def main():
     """Main entry point."""
