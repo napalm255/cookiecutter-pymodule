@@ -4,14 +4,14 @@
 Console Script Setup
 =================
 
-Optionally, your package can include a console script
+Included by default.
 
 How It Works
 ------------
 
-If the 'command_line_interface' option is set to ['click'] during setup, cookiecutter will
-add a file 'cli.py' in the project_slug subdirectory. An entry point is added to
-setup.py that points to the main function in cli.py.
+The '__main__.py' is used to enable calling via 'python -m {{ cookiecutter.project_slug }}'.
+This file simply imports '{{ cookiecutter.project_slug }}.cli()', where all the real code is located.
+An entry point is added to setup.py that points to the main function in __main__.py.
 
 Usage
 ------------
