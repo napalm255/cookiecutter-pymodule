@@ -12,6 +12,10 @@ def cli(args=None):
     click.echo('See click documentation at http://click.pocoo.org/')
     click.echo('Arguments: ', args)
 
+def main():
+    """Main entry point."""
+    cli()
+
 
 if __name__ == "__main__":
-    cli()
+    main()
