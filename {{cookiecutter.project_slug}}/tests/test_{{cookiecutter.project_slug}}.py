@@ -6,7 +6,7 @@
 import pytest
 from contextlib import contextmanager
 from click.testing import CliRunner
-from {{ cookiecutter.project_slug }}.__main__ import main
+from {{ cookiecutter.project_slug }}.__main__ import cli
 
 
 class Test{{ cookiecutter.project_slug|title }}(object):
