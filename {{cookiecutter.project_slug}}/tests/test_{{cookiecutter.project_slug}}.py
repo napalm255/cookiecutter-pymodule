@@ -17,10 +17,10 @@ class Test{{ cookiecutter.project_slug|title }}(object):
 
     def test_command_line_interface(self):
         runner = CliRunner()
-        result = runner.invoke(cli.main)
+        result = runner.invoke(cli)
         assert result.exit_code == 0
-        assert '{{ cookiecutter.project_slug }}.cli.main' in result.output
-        help_result = runner.invoke(cli.main, ['--help'])
+        assert '{{ cookiecutter.project_slug }}.cli' in result.output
+        help_result = runner.invoke(cli, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output
 
