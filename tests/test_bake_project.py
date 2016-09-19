@@ -179,15 +179,6 @@ def test_using_pytest(cookies):
         assert "import pytest" in ''.join(lines)
 
 
-def test_not_using_pytest(cookies):
-    with bake_in_temp_dir(cookies) as result:
-        assert result.project.isdir()
-        test_file_path = result.project.join('tests/test_python_boilerplate.py')
-        lines = test_file_path.readlines()
-        assert "import unittest" in ''.join(lines)
-        assert "import pytest" not in ''.join(lines)
-
-
 def test_project_with_invalid_module_name(cookies):
     result = cookies.bake(extra_context={'project_name': 'something-with-a-dash'})
     assert result.project is None
