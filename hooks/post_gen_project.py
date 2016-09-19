@@ -19,8 +19,5 @@ if __name__ == '__main__':
         remove_file('AUTHORS.rst')
         remove_file('docs/authors.rst')
 
-    if 'no' in '{{ cookiecutter.command_line_interface|lower }}':
-        remove_file(os.path.join('{{ cookiecutter.project_slug }}', 'cli.py'))
-
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
         remove_file('LICENSE')
