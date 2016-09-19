@@ -1,12 +1,12 @@
 PyYAML
+flake8
+pyflakes
 pytest
 pytest-cookies
 pytest-cov
 pytest-flake8
 pytest-html
 pytest-xdist
-flake8
-pyflakes
 pydocstyle
 pycodestyle
 tox
