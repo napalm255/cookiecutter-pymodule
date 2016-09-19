@@ -11,7 +11,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    {%- if cookiecutter.command_line_interface|lower == 'click' %}
+    {%- if 'click' in cookiecutter.command_line_interface|lower %}
     'Click>=6.0',
     {%- endif %}
     # TODO: put package requirements here
