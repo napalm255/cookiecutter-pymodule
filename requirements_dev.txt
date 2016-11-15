@@ -1,10 +1,9 @@
 PyYAML
-pyflakes==1.2.3
+pyflakes
 flake8
 pytest
 pytest-cookies
 pytest-cov
-pytest-flake8
 pytest-html
 pytest-xdist
 pydocstyle
