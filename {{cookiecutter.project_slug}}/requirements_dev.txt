@@ -3,7 +3,7 @@ bumpversion
 wheel
 watchdog==0.8.3
 flake8
-tox
+tox==2.4.1
 coverage
 Sphinx==1.4.8
 click
