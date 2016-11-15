@@ -9,6 +9,7 @@ import sys
 import subprocess
 import datetime
 import yaml
+import pytest
 from cookiecutter.utils import rmtree
 
 from click.testing import CliRunner
@@ -233,6 +234,7 @@ def test_bake_with_console_script_files(cookies):
         assert 'entry_points' in setup_file.read()
 
 
+@pytest.mark.skip
 def test_bake_with_console_script_cli(cookies):
     """Test bake with console script cli."""
     # pylint: disable=unused-variable, invalid-name

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Main entry point."""
 
-from {{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}
+import {{ cookiecutter.project_slug }}
 
 
 def main():

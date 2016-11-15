@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """{{ cookiecutter.project_name }} module."""
 
-from __future__ import absolute_import, unicode_literals, print_function
+from __future__ import absolute_import, print_function
 import logging
 import click
 from {{ cookiecutter.project_slug }}.log import configure_logging
