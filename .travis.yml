@@ -1,6 +1,6 @@
 language: python
-
 python: 3.5
+
 env:
   - TOXENV=py27
   - TOXENV=py33
@@ -12,14 +12,3 @@ install:
 
 script:
   - tox -e ${TOXENV}
-
-deploy:
-  provider: pypi
-  distributions: sdist
-  user: napalm255
-  password:
-    secure: PLEASE_REPLACE_ME
-  on:
-    tags: true
-    repo: napalm255/python_boilerplate
-    condition: $TOXENV == py27
