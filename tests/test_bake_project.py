@@ -159,7 +159,7 @@ def test_make_help(cookies):
     """Test make help."""
     with bake_in_temp_dir(cookies) as result:
         output = str(check_output_inside_dir('make help', str(result.project)))
-        assert b"check code coverage quickly with the default Python" in output
+        assert "check code coverage quickly with the default Python" in output
 
 
 def test_bake_selecting_license(cookies):
