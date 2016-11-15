@@ -13,7 +13,7 @@ pytest-cookies
 pytest-cov
 pytest-flake8
 pytest-html==1.11.0
-pytest-xdist
+pytest-xdist==1.15.0
 {% if cookiecutter.use_pypi_deployment_with_travis == 'y' -%}
 cryptography>=1.4
 PyYAML>=3.11{% endif %}
