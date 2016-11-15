@@ -2,9 +2,17 @@
 Cookiecutter PyPackage
 ======================
 
+.. image:: https://img.shields.io/travis/napalm255/cookiecutter-pymodule.svg
+    :target: https://travis-ci.org/napalm255/cookiecutter-pymodule
+    :alt: Linux build status on Travis CI
+
 .. image:: https://pyup.io/repos/github/napalm255/cookiecutter-pymodule/shield.svg
      :target: https://pyup.io/repos/github/napalm255/cookiecutter-pymodule/
      :alt: Updates
+
+.. image:: https://pyup.io/repos/github/napalm255/cookiecutter-pymodule/python-3-shield.svg
+     :target: https://pyup.io/repos/github/napalm255/cookiecutter-pymodule/
+     :alt: Python 3
 
 Cookiecutter_ template for a Python package.
 
@@ -24,16 +32,6 @@ Features
 * Command line interface using Click (optional)
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
-
-Build Status
--------------
-
-Linux:
-
-.. image:: https://img.shields.io/travis/napalm255/cookiecutter-pymodule.svg
-    :target: https://travis-ci.org/napalm255/cookiecutter-pymodule
-    :alt: Linux build status on Travis CI
-
 
 Quickstart
 ----------
