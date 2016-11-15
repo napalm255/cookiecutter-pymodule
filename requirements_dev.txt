@@ -8,6 +8,7 @@ pytest-html
 pytest-xdist
 pydocstyle
 pycodestyle
+bumpversion
 tox
 cryptography
 cookiecutter
