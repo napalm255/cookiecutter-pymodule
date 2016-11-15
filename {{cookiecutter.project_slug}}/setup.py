@@ -10,18 +10,19 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [
-    'Click>=6.0',
-    # TODO: put package requirements here
-]
+with open('requirements.txt') as requirements_file:
+    requirements = list(requirements_file.readlines())
 
-test_requirements = [
-    # TODO: put package test requirements here
-]
+with open('requirements_dev.txt') as requirements_dev_file:
+    test_reqs = list(requirements_dev_file.readlines()) + list(requirements)
+    test_requirements = list(test_reqs)
+    for req in test_reqs:
+        if '-r' in req:
+            test_requirements.remove(req)
 
 {%- set license_classifiers = {
-    'MIT license': 'License :: OSI Approved :: MIT License',
     'BSD license': 'License :: OSI Approved :: BSD License',
+    'MIT license': 'License :: OSI Approved :: MIT License',
     'ISC license': 'License :: OSI Approved :: ISC License (ISCL)',
     'Apache Software License 2.0': 'License :: OSI Approved :: Apache Software License',
     'GNU General Public License v3': 'License :: OSI Approved :: GNU General Public License'
