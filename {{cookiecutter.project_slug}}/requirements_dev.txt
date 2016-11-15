@@ -1,6 +1,6 @@
 pip==9.0.1
 bumpversion==0.5.3
-click
+click==6.6
 coverage
 wheel
 watchdog==0.8.3
