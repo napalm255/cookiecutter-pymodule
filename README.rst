@@ -14,6 +14,10 @@ Cookiecutter PyPackage
      :target: https://pyup.io/repos/github/napalm255/cookiecutter-pymodule/
      :alt: Python 3
 
+.. image:: https://readthedocs.org/projects/cookiecutter-pymodule/badge/?version=latest
+		:target: http://cookiecutter-pymodule.readthedocs.io/en/latest/?badge=latest
+		:alt: Documentation Status
+
 Cookiecutter_ template for a Python package.
 
 * GitHub repo: https://github.com/napalm255/cookiecutter-pymodule/
