@@ -1,6 +1,6 @@
-======================
-Cookiecutter PyPackage
-======================
+=====================
+Cookiecutter PyModule
+=====================
 
 .. image:: https://img.shields.io/travis/napalm255/cookiecutter-pymodule.svg
     :target: https://travis-ci.org/napalm255/cookiecutter-pymodule
@@ -18,7 +18,7 @@ Cookiecutter PyPackage
 		:target: http://cookiecutter-pymodule.readthedocs.io/en/latest/?badge=latest
 		:alt: Documentation Status
 
-Cookiecutter_ template for a Python package.
+Cookiecutter_ template for a Python module.
 
 * GitHub repo: https://github.com/napalm255/cookiecutter-pymodule/
 * Documentation: https://cookiecutter-pymodule.readthedocs.io/
@@ -45,7 +45,7 @@ Cookiecutter 1.4.0 or higher)::
 
     pip install -U cookiecutter
 
-Generate a Python package project::
+Generate a Python module project::
 
     cookiecutter https://github.com/napalm255/cookiecutter-pymodule.git
 
