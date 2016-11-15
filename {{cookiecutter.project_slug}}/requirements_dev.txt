@@ -6,7 +6,7 @@ flake8
 tox
 coverage
 Sphinx
-click
+click==6.6
 pyflakes==1.3.0
 pytest==3.0.4
 pytest-cookies==0.2.0
