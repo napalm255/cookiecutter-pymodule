@@ -5,7 +5,7 @@ watchdog==0.8.3
 flake8
 tox
 coverage
-Sphinx
+Sphinx==1.4.8
 click
 pyflakes==1.3.0
 pytest==3.0.4
