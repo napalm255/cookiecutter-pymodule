@@ -1,6 +1,6 @@
 bumpversion==0.5.3
 cookiecutter==1.5.1
-cryptography==1.6
+cryptography==1.8.1
 flake8==3.2.1
 invoke==0.14.0
 pycodestyle==2.2.0
