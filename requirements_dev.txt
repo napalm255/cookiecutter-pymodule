@@ -3,7 +3,7 @@ cookiecutter==1.5.1
 coverage==4.3.4
 cryptography==1.6
 flake8==3.2.1
-invoke==0.14.0
+invoke==0.23.0
 pycodestyle==2.2.0
 pydocstyle==1.1.1
 pyflakes==1.3.0
