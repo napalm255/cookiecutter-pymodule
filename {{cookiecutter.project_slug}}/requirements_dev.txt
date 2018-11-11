@@ -9,7 +9,7 @@ pytest-cov==2.4.0
 pytest-flake8==0.8.1
 pytest-html==1.12.0
 pytest-xdist==1.15.0
-Sphinx==1.4.9
+Sphinx==1.8.2
 tox==2.6.0
 watchdog==0.8.3
 wheel==0.29.0
