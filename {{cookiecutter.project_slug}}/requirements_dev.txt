@@ -10,7 +10,7 @@ pytest-flake8==0.8.1
 pytest-html==1.12.0
 pytest-xdist==1.15.0
 Sphinx==1.4.9
-tox==2.6.0
+tox==3.6.0
 watchdog==0.8.3
 wheel==0.29.0
 {% if cookiecutter.use_pypi_deployment_with_travis == 'y' -%}
