@@ -1,4 +1,4 @@
-bumpversion==0.5.3
+bumpversion==0.6.0
 cookiecutter==1.5.1
 coverage==4.3.4
 cryptography==1.6
