@@ -14,5 +14,5 @@ tox==2.6.0
 watchdog==0.8.3
 wheel==0.29.0
 {% if cookiecutter.use_pypi_deployment_with_travis == 'y' -%}
-cryptography==1.6
+cryptography==37.0.1
 PyYAML>=3.11{% endif %}
