@@ -11,5 +11,5 @@ pylint==1.6.5
 pytest==3.0.5
 pytest-cookies==0.2.0
 PyYAML==3.12
-tox==2.6.0
+tox==4.4.4
 watchdog==0.8.3
